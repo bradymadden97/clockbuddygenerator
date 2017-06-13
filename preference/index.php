@@ -6,11 +6,11 @@
 <head>
 <title>Preference Generator - Clock Buddy Generator</title>
 <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="bundles/css/bootstrap.min.css">
 <link rel="stylesheet" href="bundles/css/preferencestyle.css">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+<link href="bundles/css/select2.min.css" rel="stylesheet" />
+<script src="bundles/js/jquery.min.js"></script>
+<script src="bundles/js/select2.min.js"></script>
 
 </head>
 <body data-spy="scroll" data-target="#btnbar">
@@ -126,7 +126,7 @@
 	maximumSelectionLength:3
 	});
 </script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="bundles/js/bootstrap.min.js"></script>
 <script src="bundles/js/preference.js"></script>
 </body>
 </html>
