@@ -1,0 +1,116 @@
+<?php
+
+?>
+
+<html>
+<head>
+<title>Clock Buddy Generator</title>
+<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="bundles/css/homestyle.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="row">
+		<div class="col-xs-1"></div>
+		<div class="col-xs-10">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/">Clock Buddy Generator</a>
+			</div>
+			<div class="navbar-collapse collapse" id="navbar" aria-expanded="false" style="height: 1px">
+				<div>
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="/generators">Generators</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="https://github.com/bradymadden97/clockbuddygenerator">Github</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+<div class="jumbotron" style="background-color:#fff">
+<div class="wrapper container">
+	<div class="row">
+		<div class="col-sm-offset-1 col-sm-10 text-center" >
+			<p><h2 style="margin-bottom:20px; font-size:35px">Welcome to ClockBuddyGenerator</h2>
+			<h4>The best <b>free</b> tool for teachers to pair students.</h4></p>
+		</div>
+	</div>
+</div>
+</div>
+<div class="jumbotron">
+<div class="wrapper container">
+	<div class="row">
+		<div class="col-sm-8">
+		<p><h3>What is a clock buddy?</h3>
+		<div style="font-size:18px">
+		Clock buddies are custom partners generated for each student that correspond to the hours on the clock. When a teacher tells the class to "Get with your 3 O'Clock partner for this activity," each student will have a pre-assigned partner to meet with. This will save time partnering up and will encourage students to work with a variety of classmates, not just one or two different friends.
+		</div>
+		</p>
+		</div>
+		<div class="col-sm-4 text-center img-hover circlehow">
+			<div class="glyphicon-ring glyphicon-white img-responsive">
+				<span class="glyphicon glyphicon-time glyphicon-bordered"></span>
+			</div>
+		</div>
+	</div>
+	<br><br>
+	<div class="row">
+		<div class="col-sm-4 text-center img-hover circlehow">
+			<div class="glyphicon-ring glyphicon-white img-responsive">
+				<span class="glyphicon glyphicon-wrench glyphicon-bordered"></span>
+			</div>
+		</div>
+		<div class="col-sm-8 text-right">
+		<p><h3>How does it work?</h3>
+		<div style="font-size:18px">
+		Our generators allow you to enter a list of students and customize the number of matches(or "hours") you want for each student, with the default set at 12. The generators will then use algorithms to ensure each student receives unique matches with no repeats. We even have a generator that allows student partner preferences and we do our best to match them.
+		</div>
+		</p>
+		</div>
+	</div>
+	
+</div>
+</div>
+<div class="jumbotron" style="background-color:#fff">
+<div class="wrapper container">
+	<div class="row">
+		<div class="col-sm-offset-1 col-sm-10 text-center">
+			<h3>Get started now!</h3>
+			<br>
+			<a href="/generators" type="button" class="btn btn-default btn-lg" style="background-color:#8fc6ff; color:#fff; padding:20px 35px; border-color:#76b9ff">Generate Clock Buddies</a>
+		</div>	
+	</div>
+</div>
+</div>
+<div class="jumbotron">
+<div class="wrapper container">
+	<div class="text-center">
+	clockbuddygenerator &nbsp; | &nbsp; <a href="https://github.com/bradymadden97/clockbuddygenerator"> github </a> &nbsp; | &nbsp; <span id="year"></span>
+	</div>
+</div>
+</div>
+<script>
+	$(document).ready(function(){
+		yr = new Date().getFullYear();
+		$("#year").text(yr);
+	});
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>

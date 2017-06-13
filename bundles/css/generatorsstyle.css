@@ -1,0 +1,26 @@
+body{
+padding-top:60px;
+}
+
+.glyphicon-ring {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  color: white;
+  display: inline-table;
+  text-align: center;
+  margin-top:20px;
+}
+
+.glyphicon-ring .glyphicon-bordered {
+  font-size: 50px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+
+.glyphicon-white {
+  background: #8fc6ff;
+  color: white;
+}
+

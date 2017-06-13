@@ -1,0 +1,51 @@
+body{
+padding-top:20px
+}
+.jumbotron{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.glyphicon-ring {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: white;
+  display: inline-table;
+  text-align: center;
+  margin-top:20px;
+}
+
+.glyphicon-ring .glyphicon-bordered {
+  font-size: 100px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+
+.glyphicon-white {
+  background: #8fc6ff;
+  color: white;
+}
+
+.img-hover div {
+	-webkit-transition: all .5s ease;
+    	-moz-transition: all .5s ease;
+    	-ms-transition: all .5s ease;
+    	-o-transition: all .5s ease;
+    	transition: all .5s ease;
+    	vertical-align: middle;
+}
+
+.img-hover div:hover{
+	transform:scale(1.25);
+    	-ms-transform:scale(1.25); /* IE 9 */
+    	-moz-transform:scale(1.25); /* Firefox */
+    	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    	-o-transform:scale(1.25); /* Opera */
+}
+
+a, a:hover {
+	text-decoration:none;
+	color:black
+}

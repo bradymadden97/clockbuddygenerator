@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Clock Buddy Generator: Preference Generator</title>
+        <link rel="shortcut icon" href="img/favicon.ico"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    </head>
+    <body>
+        <button id="homeBtn" style="width:120px;height:40px" onclick="location.href = '/'">Home</button>
+        <button id="generatorBtn" style="width:120px;height:40px" onclick="location.href = '/generators'">Generators</button><br><br>
+	NEW PAGE UNDER CONSTRUCTION<br>
+        <b>Preference Generator</b><br>
+        Enter each student name, separated by a comma:<br><br>
+        <textarea id="studentTextArea" rows="4" cols="50"></textarea><p></p>
+        <button id="submitBtn" style="width:60px;height:30px">Submit</button><p></p>
+        <div id="numStudentsBar">Number of Students: 0</div><p></p>
+        Number of Hours:<br>
+        <div id="numHoursBar"><button id="minusHours" style="width:40px">-</button>&nbsp;&nbsp;<span id="hourSpan">12</span>&nbsp;&nbsp;<button id="plusHours" style="width:40px">+</button></div><p></p>
+        <div id="warningBar"></div>
+        <hr>
+        <div id="prefinstructions" style="display:none">Select partner preferences for each student:<br><br></div>
+        <div id="eachStudent"></div><br>
+        <button id="genbuddiesBtn" style="display:none;height:30px">Generate Buddies</button>&nbsp;&nbsp;&nbsp;
+        <div id="matches" style="display:none">Number of matches:</div>
+        <div id="calculating" style="display:none">Calculating...</div>
+        <div id="secondline" style="display:none"><br><hr></div>
+        <div id="spBar" style="display:none"><button id="reshuffleBtn" style="width:120px;height:30px">Continue Shuffling</button>&nbsp;&nbsp;&nbsp;<button id="printBtn" style="width:50px;height:30px">Print</button></div><p></p>
+        <div id="results"></div>
+
+        <div>
+            <br><br>
+            <hr>
+            <div align="center">clockbuddygenerator.com by Brady Madden | 2016</div>
+            <br>
+        </div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <script src="js/jsfile2.js"></script>       
+    </body>
+</html>
